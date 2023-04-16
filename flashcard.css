@@ -1,0 +1,37 @@
+*{
+  background-color: aliceblue;
+}
+
+.container{
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+
+  width: 100vw;
+  height: 100vh;
+
+  gap: 10px;
+
+}
+
+body{
+  margin: 0;
+}
+.card{
+padding-left: 5px;
+}
+.question{
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 5px;
+  padding-bottom: 10px;
+
+}
+
+.answer{
+  height: fit-content;
+  
+}
