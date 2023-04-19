@@ -1,64 +1,105 @@
-*{
-  background-color: aliceblue;
+body{
+  margin: 0px;
+  font-family: 'Sofia Sans Condensed', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
-.container{
 
-  display: grid;
-  grid-template-columns: 450px 1fr;
-  grid-template-rows: 50px 1fr 1fr 50px;
+.navbar-container{
+  width: 100%;
+  height: 100px;
+  background-color: #f2f2f2;
+}
 
-  width: 100vw;
-  height: 100vh;
-
-  gap: 10px;
+.main-container{
+  width: 100%;
+  height: 745px;
+  background-color: white;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(161, 58, 84, 0.363),
+      rgba(161, 58, 84, 0.363)
+    ), url(../images/person-studying.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
 
   
-  background-color: aliceblue;
-
 }
-body{
-  margin: 0;
-}
-.header{
-  grid-column: 1/span 5;
-  background-color: rgb(184, 196, 197);
 
+.main-body h1{
+  font-size: 70px;
+  font-weight: bolder;
+  color: white;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.main-body p{
+  font-size: 40px;
+  color: white;
+  margin-left: 100px;
+}
+
+.navbar{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
-h1{
-  background-color: rgb(184, 196, 197);
+.navbar .nav-left img{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
 }
-.logo{
-  grid-row: 2/span 2;
-  grid-column: 4/ 6;
-  width: 600px;
-  height: 550px;
-  
-}
-.content1{
-  padding-left: 10px;
-  display: flex;
-  
-}
-.content2{
-  grid-row: 3;
-  padding-left: 10px;
-}
-.footer{
-  grid-column: 1/ span 5;
-  grid-row: 4;
 
-  display: flex;
-  justify-self: flex-end;
-  align-items: flex-end;
-}
-.header-link{
-  border: none;
-  background-color: rgb(184, 196, 197);
+.navbar .title{
+  font-size: 40px;
   font-weight: bolder;
-  color: black;
+  padding: 10px;
+  color: rgba(136, 31, 57, 0.774);
+  
+}
+
+.navbar .nav-right ul, .navbar .nav-left ul{
+  padding: 10px;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navbar .nav-right ul{
+  color: rgb(0, 0, 238);
+}
+.nav-right ul .get-started-button{
+  background-color: rgb(0, 0, 238);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+a{
   text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.navbar .nav-right ul a:hover{
+  color: rgb(255, 0, 0);
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.get-started-button:hover{
+  font-weight: bolder;
+  transform: scale(1.1);
+  transition: 0.5s;
 }
