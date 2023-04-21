@@ -1,4 +1,3 @@
-// flashcard.js
 
 // Selectors
 const createFlashcardButton = document.getElementById('create-flashcard');
@@ -57,7 +56,6 @@ function deleteFlashcard(flashcardId) {
 }
 
 function displayFlashcards() {
-  // flashcards.js (continued)
 
   flashcardsContainer.innerHTML = '';
 

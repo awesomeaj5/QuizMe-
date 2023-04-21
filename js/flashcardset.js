@@ -1,11 +1,8 @@
-// index.js
-
 // Selectors
 const createSetButton = document.getElementById('create-set');
 const setModal = document.getElementById('set-modal');
 const closeSetModal = document.getElementById('close-set-modal');
 const setForm = document.getElementById('set-form');
-// index.js (continued)
 
 const flashcardSetsContainer = document.querySelector('.sets-container');
 
