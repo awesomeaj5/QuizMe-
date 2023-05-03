@@ -12,8 +12,8 @@ QuizMe! will have a basic feature of creating your own study sets and flashcards
 
 ### Group members:
 ```
-Mc Gabriel Fernandez: 888629482
-AJ Ort: 889672416
+Mc Gabriel Fernandez
+AJ Ort
 ```
 
 ### Features:
