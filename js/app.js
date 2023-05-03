@@ -1,3 +1,5 @@
+//The purpose of this file for the dark/light mode
+
 const toggle = document.getElementById('toggleDark');
 const body = document.querySelector('body');
 
