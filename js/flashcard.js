@@ -1,3 +1,4 @@
+//flashcard.js manages the behavior of the flashcards within study sets
 
 // Selectors
 const createFlashcardButton = document.getElementById('create-flashcard');
