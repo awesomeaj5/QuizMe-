@@ -1,3 +1,5 @@
+//flashcardset.js manages the behavior of the study sets
+
 // Selectors
 const createSetButton = document.getElementById('create-set');
 const setModal = document.getElementById('set-modal');
